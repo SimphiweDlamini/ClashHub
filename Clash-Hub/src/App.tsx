@@ -1,10 +1,10 @@
 import "./App.css";
-import ColourModeSwitch from "./components/ColourModeSwitch";
+import NavBar from "./components/NavBar";
 
 function App() {
   return (
     <>
-      <ColourModeSwitch />
+      <NavBar />
     </>
   );
 }
