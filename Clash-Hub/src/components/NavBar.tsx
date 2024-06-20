@@ -1,17 +1,20 @@
 import { HStack, Image } from "@chakra-ui/react";
 import ColourModeSwitch from "./ColourModeSwitch";
+import MyTabs from "./MyTabs";
 
 const NavBar = () => {
   return (
     <div>
-      <HStack>
+      <HStack justifyContent="space-between">
         <Image
           src="/barb.png"
           objectFit="cover"
           borderRadius="20px"
-          boxSize="75px"
+          borderColor="aqua"
+          boxSize="60px"
           alt="Barbarian"
         />
+        <MyTabs />
         <ColourModeSwitch />
       </HStack>
     </div>
